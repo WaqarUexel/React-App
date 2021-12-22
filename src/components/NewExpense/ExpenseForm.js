@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button } from 'antd';
+import React from 'react';
 
 import './ExpenseForm.css';
 const ExpenseForm=()=> {
@@ -7,7 +6,7 @@ const ExpenseForm=()=> {
         <form>
         <div className='new-expense_controls'>
         <div className='new-expense_control'>
-    <label>title</label>
+    <label>Title</label>
     <input type='text'/>
 </div>
 
